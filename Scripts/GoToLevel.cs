@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GoToLevel : MonoBehaviour
 {
-    public string level;
+    public string destination;
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene(level, LoadSceneMode.Single);
+        SceneManager.LoadScene(destination, LoadSceneMode.Single);
     }
 }
